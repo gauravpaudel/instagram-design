@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gaurav.Instagram</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!--- navabar -->
+    <div class="flex flex-row items-center justify-between bg-gray-50 w-full h-full p-3 border-b">
+        <a href="#" class="ml-56"><img src="img/instagram.png"></a>
+        <form>
+            <input type="text" placeholder="Search" class="border border-gray-300 bg-gray-100 text-gray-500 text-center rounded-sm">
+        </form>
+
+        <div class="flex flex-row justify-between text-2xl">
+
+            <a class="mr-6" href="index.html">
+                <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+            </a>
+
+            <a class="mr-6" href="#">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+            </a>
+
+            <a class="mr-6" href="#">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+            </a>
+            <a class="mr-6" href="#">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"></path></svg>
+            </a>
+            <a class="mr-60" href="profile.html">
+                   <img src="img/headshot.jpg" class="border border-indigo-800 rounded-full h-7 w-7">    
+            </a>
+        </div>
+    </div>
+    <!-- description with image-->
+    <div class="flex">
+        <div class="flex">
+            <img src="img/headshot.jpg" class="h-36 w-36 ml-60 mt-8 rounded-full">
+            
+            <div class="ml-32 mt-8">
+                <div>
+                    <span class="font-semibold text-2xl">gaurav</span>
+                    <a href="#" class="ml-4 border border-gray-600 p-2 rounded-lg hover:border-gray-900">Edit Profile</a>
+                    <a href="#"><span class="material-icons ml-4">settings</span></a>
+                </div>
+                <div class="mt-8">
+                    <span><strong>166</strong> posts</span>
+                    <span class="ml-8"><strong>257</strong> followers</span>
+                    <span class="ml-8"><strong>252</strong> following</span>
+                </div>
+                <p class="text-lg font-bold mt-6">Gaurav</p>
+                <p>{{ learner developer }}</p>
+                <p class="mt-2 text-indigo-900 font-semibold"><a href="#">paudelgaurav.com.np</a></p>
+
+            </div>
+        </div>
+    </div>
+    <!-- saved stories-->
+    <div class="flex items-center p-4 ml-56 mt-10 space-x-12">
+        <div class="">
+            <a href="#">
+                <img class="h-20 w-20 rounded-full" src="img/hacker1.jpg">
+                <p class="ml-2">memes</p>
+            </a>
+        </div>
+       
+        <div class="">
+            <a href="#">
+                <img class="h-20 w-20 rounded-full" src="img/hacker2.jpg">
+                <p class="ml-2">memes</p>
+            </a>
+        </div>
+        <div class="">
+            <a href="#">
+                <img class="h-20 w-20 rounded-full" src="img/shirt.jpg">
+                <p class="ml-2">products</p>
+            </a>
+        </div>
+    </div>
+    <!-- posts -->
+    <div class="border-t border-gray-300 mx-52 mt-4 text-sm font-semibold">
+        <div class="flex items-center justify-center space-x-12 my-5">
+            <div class="flex items-center space-x-1 text-gray-900"><span class="material-icons">grid_on</span><a href="#">POSTS</a></div>
+            <div class="flex items-center space-x-1 text-gray-500"><span class="material-icons">ondemand_video</span><a href="#">IGTV</a></div>
+            <div class="flex items-center space-x-1 text-gray-500"><span class="material-icons">bookmark_border</span><a href="#">SAVED</a></div>
+            <div class="flex items-center space-x-1 text-gray-500"><span class="material-icons">tag_faces</span><a href="#">TAGGED</a></div>
+        </div>
+        <div class="grid grid-cols-3 gap-x-8 gap-y-10">
+            <div class=""><a href="#"><img class="w-96 h-80" src="img/headshot.jpg"></a></div>
+            <div class=""><a href="#"><img class="w-96 h-80 object-cover" src="img/clinton-crumpler-highresscreenshot00006.jpg"></a></div>
+            <div class="w-auto h-auto"><a href="#"><img class="w-96 h-80 object-cover" src="img/dimitri-le-roch-kylo-ren-dimz.jpg"></a></div>
+            <div class="w-auto h-auto"><a href="#"><img class="w-96 h-80 object-cover" src="img/neon-gold-asset.jpg"></a></div>
+            <div class="w-auto h-auto"><a href="#"><img class="w-96 h-80 object-cover" src="img/shirt.jpg"></a></div>
+            <div class="w-auto h-auto"><a href="#"><img class="w-96 h-80 object-cover" src="img/hacker2.jpg"></a></div>
+            
+        </div>
+    </div>
+</body>
+</html>
